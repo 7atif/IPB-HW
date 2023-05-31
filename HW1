@@ -1,0 +1,39 @@
+1. Link to another site, an anchor, a page on the same site:
+To link to another site, you simply need to use the anchor tag with the href attribute set to the URL of the site you want to link to. For example:
+
+```
+<a href="https://www.example.com">Link to Example Website</a>
+```
+
+To link to a page on the same site, you can use a relative URL. For example, if you want to link to a page called "about.html" in the same directory as your current page, you can use:
+
+```
+<a href="about.html">Link to About Page</a>
+```
+
+2. Link that dials a number, runs JavaScript, runs email client:
+To create a link that dials a phone number when clicked, you can use the tel protocol in the href attribute. For example:
+
+```
+<a href="tel:1234567890">Call us at (123) 456-7890</a>
+```
+
+To run JavaScript when a link is clicked, you can use the onclick attribute. For example:
+
+```
+<a href="#" onclick="alert('Hello, world!')">Click me</a>
+```
+
+To open an email client when a link is clicked, you can use the mailto protocol in the href attribute. For example:
+
+```
+<a href="mailto:example@example.com">Email us</a3. Open the link in a new tab/window:
+To open a link in a new tab or window, you can use the target attribute with the value "_blank". For example:
+
+```
+<a href="https://www.example.com" target="_blank">Link to Example Website</a>
+```
+
+This will cause the link to open in a new tab or window, depending on the user's browser settings.
+
+Note: Some browsers may block new tabs or windows from opening automatically, so it's a good idea to let the user know that the link will open in a new tab or window by adding a note or icon next to the link.
