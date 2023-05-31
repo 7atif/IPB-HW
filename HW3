@@ -1,0 +1,19 @@
+1. input types in HTML5:
+Hidden, Tel, Email, Number, Range, Search, Image, Week, Url, DateTime-Local, Month, Time.
+
+2. how to use the meta tag to provide information about the application name:
+`<meta name="application-name" content="OpenStreetMap">`
+
+examples of the application of the input types:
+- Hidden: Used to store a value that will not be displayed on the page.
+- Tel: Used for a phone number input field.
+- Email: Used for an email address input field.
+- Number: Used for a numeric input field.
+- Range: Used for a slider input field.
+- Search: Used for a search input field.
+- Image: Used for an image input field, where the user can select an image file to upload.
+- Week: Used for a week input field, where the user can select a week from a calendar.
+- URL: Used for a URL input field.
+- DateTime-Local: Used for a date and time input field.
+- Month: Used for a month input field.
+- Time: Used for a time input field.
